@@ -1,0 +1,36 @@
+.wrapper {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: auto;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.wrapper h1 {
+    margin-top: 5px;
+}
+
+#Grey {
+    background-color: #ccc;
+    height: 40px;
+    width: 100%;
+    position: relative;
+}
+
+#Green {
+    background-color: green;
+    position: absolute;
+    height: 40px;
+    color: #fff;
+    line-height: 40px;
+    width: 0%;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+#ClickMe {
+    margin-top: 20px;
+}
